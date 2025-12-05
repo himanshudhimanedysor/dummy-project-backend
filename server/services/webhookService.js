@@ -27,7 +27,7 @@ async function triggerWebhooks(event, studentData) {
       return axios.post(webhook.url, payload, {
         timeout: webhookTimeout,
        headers: {
-        Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiZjI3OTVhY2ItMzkzYy00ZjlkLTk3ZGItYzkzODI5NDUyZDEyIiwiZW1haWwiOiJhdGlzaGF5YUBlZHlzb3IuYWkiLCJyb2xlIjoiY29tcGFueSJ9LCJleHBpcmVzIjoxNzY0OTc1ODM5LCJpYXQiOjE3NjQ5Mzk4Mzl9.gokVlkt_-kSwZ0VnKToxPYXxjpefTlXhlP5DQtQ3Ofg`,
+        Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiZjI3OTVhY2ItMzkzYy00ZjlkLTk3ZGItYzkzODI5NDUyZDEyIiwiZW1haWwiOiJhdGlzaGF5YUBlZHlzb3IuYWkiLCJyb2xlIjoiY29tcGFueSJ9LCJleHBpcmVzIjoxNzY0OTc4MDQzLCJpYXQiOjE3NjQ5NDIwNDN9._rf_1WJC5FsCzsFHL55NlUibPPhgIRoleRYvOGLkJzg`,
         "Content-Type": "application/json"
 }
 
